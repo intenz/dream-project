@@ -1,21 +1,9 @@
 .DS_Store
 .venv
-.flaskenv
 *.pyc
 *.pyo
-env
-env*
 dist
 build
-*.egg
-*.egg-info
-_mailinglist
-.tox
 .cache/
 .idea/
-
-# Coverage reports
-htmlcov
-.coverage
-.coverage.*
-*,cover
+instance/

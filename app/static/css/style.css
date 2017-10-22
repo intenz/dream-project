@@ -17,12 +17,18 @@ a:hover, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:h
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
     padding: 50px 0;
-    background-color: #f8f8f8;
 }
 
 p.copyright {
     margin: 15px 0 0;
+    color: #abcc0e;
+    font-size: 1em;
 }
 
 .alert-info {
@@ -69,15 +75,12 @@ p.copyright {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
     height: 100%;
 }
 
 .intro-message {
     position: relative;
     padding-top: 20%;
-    padding-bottom: 20%;
 }
 
 .intro-message > h1 {
@@ -121,4 +124,23 @@ p.copyright {
 .inner {
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    z-index: -100;
+}
+.videocolor {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.4);
 }
